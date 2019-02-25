@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Devaki Kamat</h3>
+<h3>1001635004</h3>
+<h2>Searching data....</h2>
+{% for loc in info %}
+<table border=1>
+<tr>
+<td>{{ loc["mag"] }}</td>
+<td>{{ loc["place"] }}</td>
+</tr>
+</table>
+{#<h3>Count: {{ info }}</h3>#}
+{% endfor %}
+</body>
+</html>
